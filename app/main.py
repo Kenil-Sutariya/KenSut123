@@ -30,3 +30,5 @@ def predict_text(text):
     prediction = model.predict(query)
     prediction = str(prediction[0])
     return {"predicted_label": prediction}
+
+# thank you
